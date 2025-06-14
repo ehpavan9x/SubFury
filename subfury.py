@@ -27,7 +27,7 @@ except FileNotFoundError:
 
 try:
     for word in words:
-        protocols = ['http', 'https']
+        protocols = ['https']
 
         for protocol in protocols:
             url = f"{protocol}://{word}.{args.domain}"  
