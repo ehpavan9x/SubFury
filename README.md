@@ -14,11 +14,15 @@
 
 ## 🚀 Features
 
+
 - 🔎 Scans for subdomains using your own or default wordlist  
-- 🌐 Supports `https` protocols  
-- 💾 Save found subdomains to an output file  
-- ⚡ Fast and easy to use  
-- 💥 Graceful exit with Ctrl+C  
+- 🌐 Supports `https` protocol only (no noise from `http`)  
+- 🔗 Fetches subdomains directly from [crt.sh](https://crt.sh) using `--include-crtsh`  
+- 🧵 Fast multithreaded scanning using Python's `ThreadPoolExecutor`  
+- 💾 Save found subdomains to an output file using `-o`  
+- ⚡ Beginner-friendly and easy to use  
+- 💥 Graceful exit with `Ctrl + C`  
+- 🧠 Merges wordlist + crt.sh results without duplicates  
 
 ---
 
