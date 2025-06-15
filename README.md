@@ -41,23 +41,30 @@ pip install -r requirements.txt
 ```
 
 **Usage**
-```Basic Usage
 
+🚀 Basic Usage
+```
 python3 subfury.py example.com
 ```
-With Wordlist
+🔍 With Wordlist
 ```
 python3 subfury.py example.com -w wordlist.txt
 ```
-With Output File
+
+🌐 Include crt.sh Subdomains
+```
+python3 subfury.py example.com --include-crtsh
+```
+
+💾 Save Output to File
 ```
 python3 subfury.py example.com -o output.txt
 ```
-All Together
-```
-python3 subfury.py example.com -w wordlist.txt -o output.txt
-```
 
+🧩 Combine All Options
+```
+python3 subfury.py example.com -w wordlist.txt --include-crtsh -o output.txt
+```
 
 **Sample Output**
 ```
